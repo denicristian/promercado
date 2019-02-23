@@ -15,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
+            <state relative-caret-position="-48">
               <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="e#1931#4427#0#PHP" expanded="true" />
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="3110" column="13" selection-start-line="3110" selection-start-column="13" selection-end-line="3110" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="630" column="22" selection-start-line="630" selection-start-column="22" selection-end-line="630" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -44,7 +44,15 @@
       <find>site-hea</find>
       <find>33.3</find>
       <find>#widget-icon-section .widget</find>
+      <find>id=&quot;widget-icon-section</find>
+      <find>widget-icon-section</find>
+      <find>fixed</find>
+      <find>content</find>
+      <find>#content</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/wp-content/themes</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,6 +101,14 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="wp-store" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-store" type="462c0819:PsiDirectoryNode" />
+              <item name="template-parts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,12 +143,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550950984406</updated>
-      <workItem from="1550950985603" duration="848000" />
+      <workItem from="1550950985603" duration="1183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="848000" />
+    <option name="totallyTimeSpent" value="1183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -165,7 +181,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
+        <state relative-caret-position="-48">
           <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
           <folding>
             <element signature="e#1931#4427#0#PHP" expanded="true" />
@@ -178,8 +194,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="3110" column="13" selection-start-line="3110" selection-start-column="13" selection-end-line="3110" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="630" column="22" selection-start-line="630" selection-start-column="22" selection-end-line="630" selection-end-column="22" />
         </state>
       </provider>
     </entry>
