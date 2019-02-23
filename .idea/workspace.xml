@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="3029" column="13" selection-start-line="3029" selection-start-column="13" selection-end-line="3029" selection-end-column="13" />
+            <state relative-caret-position="321">
+              <caret line="3110" column="13" selection-start-line="3110" selection-start-column="13" selection-end-line="3110" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -43,6 +43,7 @@
       <find>my a</find>
       <find>site-hea</find>
       <find>33.3</find>
+      <find>#widget-icon-section .widget</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,12 +127,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550950984406</updated>
-      <workItem from="1550950985603" duration="605000" />
+      <workItem from="1550950985603" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="605000" />
+    <option name="totallyTimeSpent" value="848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -177,8 +178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="3029" column="13" selection-start-line="3029" selection-start-column="13" selection-end-line="3029" selection-end-column="13" />
+        <state relative-caret-position="321">
+          <caret line="3110" column="13" selection-start-line="3110" selection-start-column="13" selection-end-line="3110" selection-end-column="13" />
         </state>
       </provider>
     </entry>
