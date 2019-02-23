@@ -12,6 +12,20 @@ endif;
 ?>
     <div class="ed-container">
         <?php
+        // widget icon section starts
+        $widget_icon_section = get_theme_mod('wp_store_homepage_setting_widget_icon_option', 0);
+        if ($widget_icon_section == '1'):
+            ?>
+            <div id='widget-icon-section'>
+                <?php
+                if (is_active_sidebar('widget-icon')):
+                    dynamic_sidebar('widget-icon');
+                endif;
+                ?>
+            </div>
+        <?php
+        endif;
+        // widget icon section ends
 
         do_action('wp_store_promo_section');    // Promo section- this function is in wp-store-function.php
 
@@ -145,24 +159,8 @@ endif;
             </div>
         <?php
         endif;
-
         // widget area 3 section ends
 
-        // widget icon section starts
-        $widget_icon_section = get_theme_mod('wp_store_homepage_setting_widget_icon_option', 0);
-        if ($widget_icon_section == '1'):
-            ?>
-            <div id='widget-icon-section'>
-                <?php
-                if (is_active_sidebar('widget-icon')):
-                    dynamic_sidebar('widget-icon');
-                endif;
-                ?>
-            </div>
-        <?php
-        endif;
-
-        // widget icon section ends
 
         // brand section starts
         $brand_section = get_theme_mod('wp_store_homepage_setting_brand_option', 0);
