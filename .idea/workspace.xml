@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9586fd36-4410-4775-9c83-0fcf6f65aef8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wp-store/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wp-store/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wp-store/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wp-store/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-76">
@@ -27,7 +27,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="3029" column="13" selection-start-line="3029" selection-start-column="13" selection-end-line="3029" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>my a</find>
+      <find>site-hea</find>
+      <find>33.3</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +52,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/wp-store/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-store/style.css" />
       </list>
     </option>
   </component>
@@ -109,12 +126,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550950984406</updated>
-      <workItem from="1550950985603" duration="204000" />
+      <workItem from="1550950985603" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204000" />
+    <option name="totallyTimeSpent" value="605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -155,6 +172,13 @@
             <element signature="e#7226#7233#0#HTML" expanded="true" />
             <element signature="e#7722#7729#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="3029" column="13" selection-start-line="3029" selection-start-column="13" selection-end-line="3029" selection-end-column="13" />
         </state>
       </provider>
     </entry>
