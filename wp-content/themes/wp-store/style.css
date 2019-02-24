@@ -2844,7 +2844,7 @@ CALL TO ACTION SECTION
 PRODUCT AREA SECTION
 -----------------------------------------*/
 #product-area-section {
-	border-bottom: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
 	/*padding-bottom: 5px;*/
 }
 
@@ -4550,6 +4550,10 @@ ERROR PAGE
 
 .list-category-home li a{
 	display: block;
+}
+
+.list-category-home li a h4{
+	text-align: center;
 }
 
 .list-category-home li a img{

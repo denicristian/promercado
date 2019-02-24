@@ -115,6 +115,8 @@ endif;
                 'taxonomy' => 'product_cat',
                 'hide_empty' => false
             ));
+
+            print_r($products_categories);
             ?>
             <ul class="list-category-home">
                 <?php
@@ -124,8 +126,10 @@ endif;
                     $image = wp_get_attachment_url($thumbnail_id);
                     ?>
                     <li>
-                        <a href="">
+                        <a href="<?php echo get_term_link($category->term_id); ?>">
                             <img src="<?php echo $image?>" alt="">
+
+                            <h4><?php echo $category->name; ?></h4>
                         </a>
                     </li>
                 <?php endforeach; ?>
@@ -178,13 +182,13 @@ endif;
         $widget_area_three = get_theme_mod('wp_store_homepage_setting_widget3_option', 0);
         if ($widget_area_three == '1'):
             ?>
-            <div id='widget-area-three-section'>
+            <!--div id='widget-area-three-section'>
                 <?php
                 if (is_active_sidebar('widget-area-three')):
                     dynamic_sidebar('widget-area-three');
                 endif;
                 ?>
-            </div>
+            </div-->
         <?php
         endif;
         // widget area 3 section ends
