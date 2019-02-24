@@ -80,13 +80,13 @@ endif;
         $widget_area_two = get_theme_mod('wp_store_homepage_setting_widget2_option', 0);
         if ($widget_area_two == '1'):
             ?>
-            <div id='widget-area-two-section'>
+            <!--div id='widget-area-two-section'>
                 <?php
                 if (is_active_sidebar('widget-area-two')):
                     dynamic_sidebar('widget-area-two');
                 endif;
                 ?>
-            </div>
+            </div-->
         <?php
         endif;
         // Widget area 2 section ends
@@ -95,13 +95,13 @@ endif;
         $product_section = get_theme_mod('wp_store_homepage_setting_product_option', 0);
         if ($product_section == '1'):
             ?>
-            <div id='product-area-section'>
+            <!--div id='product-area-section'>
                 <?php
                 if (is_active_sidebar('product-area')):
                     dynamic_sidebar('product-area');
                 endif;
                 ?>
-            </div>
+            </div-->
         <?php
         endif;
         // Product area section ends
