@@ -4535,3 +4535,25 @@ ERROR PAGE
 	margin: 0 auto;
 	width: 500px;
 }
+
+.list-category-home{
+	width: 100%;
+	list-style: none;
+}
+
+.list-category-home li{
+	display: inline-block;
+	width: 182px;
+	height: 182px;
+	margin: 10px;
+}
+
+.list-category-home li a{
+	display: block;
+}
+
+.list-category-home li a img{
+	display: block;
+	width: 182px;
+	height: 182px;
+}

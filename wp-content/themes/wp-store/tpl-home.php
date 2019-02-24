@@ -106,6 +106,34 @@ endif;
         endif;
         // Product area section ends
 
+        ?>
+
+        <div id='product-area-section'>
+            <h3 class="section-title"><span>CATEGORIAS</span></h3>
+            <?php
+            $products_categories = get_terms(array(
+                'taxonomy' => 'product_cat',
+                'hide_empty' => false
+            ));
+            ?>
+            <ul class="list-category-home">
+                <?php
+                foreach ($products_categories as $category):
+
+                    $thumbnail_id = get_woocommerce_term_meta($category->term_id, 'thumbnail_id', true);
+                    $image = wp_get_attachment_url($thumbnail_id);
+                    ?>
+                    <li>
+                        <a href="">
+                            <img src="<?php echo $image?>" alt="">
+                        </a>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+
+        <?php
+
         // blog section starts
         $blog_section = get_theme_mod('wp_store_homepage_setting_blog_option', 0);
         if ($blog_section == 1):

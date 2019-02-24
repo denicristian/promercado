@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9586fd36-4410-4775-9c83-0fcf6f65aef8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wp-store/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wp-store/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wp-store/tpl-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wp-store/tpl-home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/tpl-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="249">
+              <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="4544" column="26" selection-start-line="4544" selection-start-column="26" selection-end-line="4544" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -38,6 +57,9 @@
       <find>slider-section</find>
       <find>ed-container</find>
       <find>product-area-section</find>
+      <find>get up</find>
+      <find>brands</find>
+      <find>home</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/wp-content/themes</dir>
@@ -51,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/wp-store/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wp-store/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wp-store/tpl-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wp-store/style.css" />
       </list>
     </option>
   </component>
@@ -126,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550950984406</updated>
-      <workItem from="1550950985603" duration="1691000" />
+      <workItem from="1550950985603" duration="3207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1691000" />
+    <option name="totallyTimeSpent" value="3207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -201,13 +223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="639" column="24" lean-forward="true" selection-start-line="639" selection-start-column="24" selection-end-line="639" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-48">
@@ -223,8 +238,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/tpl-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="249">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wp-store/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="4544" column="26" selection-start-line="4544" selection-start-column="26" selection-end-line="4544" selection-end-column="26" />
         </state>
       </provider>
     </entry>
