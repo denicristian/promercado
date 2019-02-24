@@ -4567,6 +4567,6 @@ ERROR PAGE
 	padding: 5px;
 }
 
-.easy-table tbody th:nth-child(even) td{
+.easy-table tbody tr:nth-child(even) td{
 	background: #f5f5f5;
 }
