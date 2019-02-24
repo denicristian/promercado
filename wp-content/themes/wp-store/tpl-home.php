@@ -115,8 +115,6 @@ endif;
                 'taxonomy' => 'product_cat',
                 'hide_empty' => false
             ));
-
-            print_r($products_categories);
             ?>
             <ul class="list-category-home">
                 <?php
