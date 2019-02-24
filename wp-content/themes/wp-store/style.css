@@ -4561,3 +4561,12 @@ ERROR PAGE
 	width: 182px;
 	height: 182px;
 }
+
+.easy-table td,
+.easy-table td{
+	padding: 5px;
+}
+
+.easy-table tbody th:nth-child(even) td{
+	background: #f5f5f5;
+}
