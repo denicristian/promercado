@@ -116,9 +116,9 @@ endif;
                 'hide_empty' => false
             ));
 
-            echo "<pre>";
-            print_r($products_categories);
-            echo "</pre>";
+//            echo "<pre>";
+//            print_r($products_categories);
+//            echo "</pre>";
             ?>
             <ul class="list-category-home">
                 <?php
