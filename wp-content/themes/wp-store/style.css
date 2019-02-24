@@ -4562,7 +4562,7 @@ ERROR PAGE
 	height: 182px;
 }
 
-.easy-table td,
+.easy-table th,
 .easy-table td{
 	text-align: left;
 	padding: 5px;
