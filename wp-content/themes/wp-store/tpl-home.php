@@ -115,6 +115,8 @@ endif;
                 'taxonomy' => 'product_cat',
                 'hide_empty' => false
             ));
+
+            print_r($products_categories);
             ?>
             <ul class="list-category-home">
                 <?php
@@ -122,6 +124,8 @@ endif;
 
                     $thumbnail_id = get_woocommerce_term_meta($category->term_id, 'thumbnail_id', true);
                     $image = wp_get_attachment_url($thumbnail_id);
+
+                    if($category->parent == 0) :
                     ?>
                     <li>
                         <a href="<?php echo get_term_link($category->term_id); ?>">
@@ -130,7 +134,10 @@ endif;
                             <h4><?php echo $category->name; ?></h4>
                         </a>
                     </li>
-                <?php endforeach; ?>
+                <?php
+                endif;
+                endforeach;
+                ?>
             </ul>
         </div>
 
